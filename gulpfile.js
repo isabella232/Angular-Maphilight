@@ -16,5 +16,5 @@ gulp.task('build', function () {
         .pipe(angularFilesort())
         .pipe(uglify())
         .pipe(concat('angular.maphilight.min.js'))
-        .pipe(gulp.dest('./lib'));
+        .pipe(gulp.dest('./dist'));
 });
